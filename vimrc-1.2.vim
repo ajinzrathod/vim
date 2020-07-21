@@ -471,7 +471,7 @@ set backspace=indent,eol,start
 " My Shortcuts
 
 " Run Python
-imap <F5> <Esc>:w<CR>:!clear;python3 %<CR>
+map <F5> <Esc>:w<CR>:!clear;python3 %<CR>
 "short cut to toggle Nerd Tree
 map <silent> <C-k><C-b> :NERDTreeToggle<CR>
 
