@@ -539,4 +539,10 @@ if exists("+showtabline")
     highlight link TabNum Special
 endif
 
-" ----------------------------------------
+
+" Highlights current line in Insert Mode-----------------
+autocmd InsertEnter,InsertLeave * set cul!
+
+
+" Transparent Background -----------------
+"hi Normal guibg=NONE ctermbg=NONE
