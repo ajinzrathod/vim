@@ -543,6 +543,8 @@ endif
 " Highlights current line in Insert Mode-----------------
 autocmd InsertEnter,InsertLeave * set cul!
 
+" Comment ----------
+map <C-\> gc
 
 " Transparent Background -----------------
 "hi Normal guibg=NONE ctermbg=NONE
