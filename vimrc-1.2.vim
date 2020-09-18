@@ -548,3 +548,7 @@ map <C-\> gc
 
 " Transparent Background -----------------
 "hi Normal guibg=NONE ctermbg=NONE
+
+" Switch Vim Tabs ------------
+nnoremap <C-h> gT
+nnoremap <C-l> gt
