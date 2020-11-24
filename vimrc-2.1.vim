@@ -583,14 +583,14 @@ inoremap jj <ESC>
 inoremap ww <ESC>:w<CR>
 
 " To copy paste in and from `+` register instantly
-noremap <C-c> "+y
-noremap <C-v> "+p
+" noremap <C-c> "+y
+" noremap <C-v> "+p
 
 " Select and Copy All Lines in + Register
 noremap <C-a> gg"+yG<CR>
 
 " Indent all lines in current working file
-noremap <C-i> <Esc>gg=G
+noremap <C-i> <Esc>mcgg=G`c
 
 " Transparent Background -----------------
 hi Normal guibg=NONE ctermbg=NONE
