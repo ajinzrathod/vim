@@ -24,7 +24,7 @@ Copy the contents of `config.vim` file into your `~/.vimrc` file. Save and quit.
 Launch `vim` and run `:PluginInstall`
 
 
-## Use as Root use also? 
+## Want to use as Root user also? 
 
 Exactly same procedure but instaed of copying contents, just make a soft link.
 
