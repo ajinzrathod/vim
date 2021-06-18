@@ -22,3 +22,22 @@ Copy the contents of `config.vim` file into your `~/.vimrc` file. Save and quit.
 
 #### Step 3
 Launch `vim` and run `:PluginInstall`
+
+
+## Use as Root use also? 
+
+Exactly same procedure but instaed of copying contents, just make a soft link.
+
+#### 1: Set Up Vundle
+```
+sudo -s
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
+
+#### Step 2: Create Softlink
+```
+ln -s /home/ajinzrathod/.vimrc ~/.vimrc
+```
+
+#### Step 3
+Launch `vim` and run `:PluginInstall`
