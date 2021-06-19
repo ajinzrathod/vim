@@ -41,3 +41,22 @@ ln -s /home/ajinzrathod/.vimrc ~/.vimrc
 
 #### Step 3
 Launch `vim` and run `:PluginInstall`
+
+
+## To use in Fedora
+
+[Source](https://dhilst.github.io/2019/01/19/vim-clipboard-on-fedora.html)
+* Install vimx: 
+
+```bash
+sudo dnf install -y vim-X11
+```
+
+* Add `set clipboard=unnamedplus` to your .vimrc
+```
+set clipboard=unnamedplus
+```
+
+Add `alias vim=vimx` and `alias vi=vimx` to your **.bashrc** or **.zshrc**. This is important because vim binary isn’t built with +clipboard support.
+
+To use mouse set `set mouse=a` in your **.vimrc**
