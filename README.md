@@ -60,3 +60,8 @@ set clipboard=unnamedplus
 Add `alias vim=vimx` and `alias vi=vimx` to your **.bashrc** or **.zshrc**. This is important because vim binary isn’t built with +clipboard support.
 
 To use mouse set `set mouse=a` in your **.vimrc**
+
+
+## Map Escape to caps lock in vim not working in Fedora 34?
+
+dconf write /org/gnome/desktop/input-sources/xkb-options "['caps:swapescape']"
