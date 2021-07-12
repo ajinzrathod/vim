@@ -65,3 +65,7 @@ To use mouse set `set mouse=a` in your **.vimrc**
 ## Map Escape to caps lock in vim not working in Fedora 34?
 
 dconf write /org/gnome/desktop/input-sources/xkb-options "['caps:swapescape']"
+
+**OR**
+
+View [this](https://askubuntu.com/questions/363346/how-to-permanently-switch-caps-lock-and-esc)
